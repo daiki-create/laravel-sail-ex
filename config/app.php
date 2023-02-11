@@ -212,4 +212,9 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+     /*
+    * お問い合わせフォーム 管理者
+    */
+    'admin_address' => env('MAIL_TO_ADDRESS'),
+
 ];

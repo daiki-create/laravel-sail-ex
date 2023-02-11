@@ -22,4 +22,6 @@ use App\Http\Livewire\Input;
 use App\Http\Livewire\Confirm;
 use App\Http\Livewire\Complete;
 
-Route::get('/', Input::class)->name('home'); //入力画面
+Route::get('/inquiry', Input::class)->name('home'); //入力画面
+Route::get('/confirm', Confirm::class)->name('confirm'); //確認画面
+Route::get('/complete', Complete::class)->name('complete');
